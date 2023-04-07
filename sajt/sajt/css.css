@@ -1,0 +1,111 @@
+html,
+body {
+    height: 1700px;
+    width: 1900px;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(48, 48, 48);
+    background-image: url('https://cdn-wp.thesportsrush.com/2020/12/e959ea72-untitled-design-2020-12-08t015349.599.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;    
+   
+}
+header {
+    position:sticky;
+    position:center;
+    top:0;
+    width: 1150px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #ffffff;
+    color: #b700ff;
+    background-color:transparent;
+    background-size: cover;  
+    background-repeat: no-repeat;
+        border-top: 4px solid #333;
+        
+        border-left: 3px solid #000000;
+        
+    
+    
+    
+}
+
+.logo {
+    letter-spacing: 7px;
+    background-position: left, 50px;
+   
+}
+
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.navlink {
+    list-style: none;
+    margin: 0;
+    width: 10%;
+}
+
+.navlink a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navlink a:hover {
+    color:rgb(183, 0, 255);
+
+}
+#sekcija1 {
+    font-size: 50px;
+    float: left;  
+    border: 1px solid #ffffff;
+    padding: 10px;
+    margin: 10px;
+    font-size: 25px;
+    color: #ffffff;
+    
+  }
+#sekcija2 {
+    height: 100px;
+    width: 2000px;
+    position: absolute;
+    top:1550px;
+    font-size: 24px;
+    border: 1px solid #ffffff;
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+    color: #ffffff;
+    direction: rtl;
+}
+
+    #nazad{
+        float:middle
+    }
+html {
+    scroll-behavior: smooth;
+}
+
+#sekcija3{
+    float:right;
+    border: 1px solid #ffffff;
+    padding: 10px;
+    margin: 10px;
+    font-size: 30px;
+    color: #ffffff;
+}
+img{
+    float:right;
+    
+    width: 600px;
+    height: 400px;
+    
+}
